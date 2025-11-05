@@ -1,0 +1,133 @@
+.wrap{
+    background-color: #fdfdfd;
+}
+
+.pc_header{
+    padding: 0 200px;
+}
+
+section:not(.sec_1){
+    width: 100%;
+    padding: 200px;
+}
+
+
+h2{
+    font-weight: 700;
+    font-size: 46px;
+    letter-spacing: -0.02em;
+    color: #1B1B1B;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -0.02em;
+    color: #1B1B1B;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    color: #1B1B1B;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.015em;
+    color: #1B1B1B;
+}
+
+h6{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: #1B1B1B;
+}
+/* font size pc end */
+
+.btn_wrap{
+    display: flex;
+    gap: 30px;
+}
+
+.btn a{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    padding: 12px 27px;
+}
+
+.btn h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_btn h6{
+    color: #ffffff;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+.home_btn{
+    background: rgba(211, 211, 211, 0.7);
+}
+
+.main_btn{
+    background-color: #E98300;
+}
+
+.btn_icon_wrap{
+    position: relative;
+}
+
+.btn_icon{
+    margin-top: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hover_icon{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.none_icon{
+    transition: 0.5s;
+}
+
+.btn:hover .hover_icon{
+    opacity: 1;
+}
+
+.btn:hover .none_icon{
+    opacity: 0;
+}
+/* btn style active hover end */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

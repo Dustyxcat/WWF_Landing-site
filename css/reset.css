@@ -55,16 +55,10 @@ table {
 /* @@추가@@ */
 a{
     text-decoration: none;
-	color: #191919;
+	color: #1B1B1B;
 }
 
 img{
     width: 100%;
     display: block;
 }
-
-/* .wrap{
-	max-width: 1920px;
-	margin: 0 auto;
-	width: 1920px;
-} */
