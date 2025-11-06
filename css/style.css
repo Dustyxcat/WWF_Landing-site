@@ -274,6 +274,146 @@
     background-color: #1b1b1b;
 }
 
+.sec_5{
+    position: relative;
+}
+
+.title_5 h2{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.point_5{
+    color: #E98300;
+}
+
+.sub_title_5{
+    text-align: end;
+}
+
+.sub_title_5 h4{
+    margin-top: 150px;
+    font-size: 50px;
+    color: #ffffffab;
+}
+
+.sec_5 .main_btn{
+    margin-top: 50px;
+    float: right;
+    width: 260px;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 30px;
+}
+
+.sec_5 .main_btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_5 .main_btn h6{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.elli_wrap{
+    width: 550px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+    position: relative;
+    bottom: 150px;
+}
+
+.elli{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 590px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: #e9840036;
+}
+
+.elli_1{
+    width: 100px;
+    animation-name: elli_ani;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes elli_ani{
+    0%{
+        width: 100px;
+    }
+    
+    100%{
+        width: 590px;
+        background-color: #e9840036;
+    }
+}
+
+.elli_2{
+    width: 200px;
+}
+
+.elli_3{
+    width: 300px;
+}
+
+.elli_4{
+    width: 450px;
+}
+
+.spon_wrap{
+    position: absolute;
+    left: 200px;
+    bottom: 500px;
+}
+
+.spon_wrap h2{
+    display: flex;
+    justify-content: end;
+    color: #FFB617;
+    font-size: 90px;
+    align-items: end;
+    position: relative;
+}
+
+.spon_wrap h4{
+    color: #ffffff;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.perc_5{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.arrow_5{
+    position: absolute;
+    top: 0;
+    right: -55px;
+    animation-name: perc_ani;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes perc_ani{
+    0%{
+        top: 10px;
+        opacity: 0.2;
+    }
+
+    100%{
+        top: -40px;
+        opacity: 1;
+    }
+}
 
 
 
