@@ -6,7 +6,7 @@
     padding: 0 200px;
 }
 
-section:not(.sec_1){
+section:not(.sec_1, .sec_2){
     width: 100%;
     padding: 200px;
 }

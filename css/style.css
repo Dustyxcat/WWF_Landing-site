@@ -2,10 +2,13 @@
 @import url(common.css);
 
 .pc_header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 30;
 }
 
@@ -50,10 +53,7 @@
 /* header end */
 
 .sec_1{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
 }
 
 .title_wrap_1{
@@ -118,11 +118,17 @@
 }
 /* sec_1 end */
 
-.con_wrap_2{
+.sec_2{
+    padding: 0 200px;
+    width: 100%;
     position: absolute;
-    bottom: -900px;
-    left: 200px;
-    z-index: 30;
+    bottom: -300px;
+    left: 50%;    
+    transform: translateX(-50%);
+    z-index: 50;
+}
+
+.con_wrap_2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 50px;
@@ -175,3 +181,108 @@
 .hover_con_2:hover .con_title_wrap_2{
     bottom: 30px;
 }
+/* sec_2 end */
+
+.sec_3 {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.title_wrap{
+    margin-bottom: 50px;
+}
+
+.title_wrap h5{
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.title_wrap h2{
+    margin-bottom: 50px;
+}
+
+.con_wrap_3{
+    margin: 0 auto;
+    display: flex;
+}
+
+.con_3{
+    position: relative;
+    width: 100%;
+}
+
+.con_3_1{
+    background: url(../img/sec_3/bg.png) no-repeat center / cover;
+}
+
+.con_3_2{
+    background: url(../img/sec_3/bg-1.png) no-repeat center / cover;
+}
+
+.con_3_3{
+    background: url(../img/sec_3/bg-2.png) no-repeat center / cover;
+}
+
+.con_3_dot{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(253, 253, 253, 0.5) 0%, rgba(253, 253, 253, 0) 100%);
+    opacity: 0;
+    transform: scale(0.7);
+    transition: 0.5s;
+}
+
+.con_title_3{
+    margin-top: 100px;
+}
+
+.icon_title{
+    display: inline-block;
+    height: 40px;
+    background-color: #E98300;
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.icon_title h5{
+    color: #ffffff;
+}
+
+.con_3 h4{
+    color: #ffffff;
+    margin-bottom: 140px;
+}
+
+.con_3_bar{
+    margin: 0 auto;
+    width: 3px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E98300;
+    margin-bottom: 20px;
+}
+
+.con_3_price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.con_3:hover .con_3_dot{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* sec_3 end */
+
+
+
+
