@@ -1,4 +1,4 @@
-.wrap{
+.wwf_wrap{
     background-color: #fdfdfd;
 }
 
@@ -190,4 +190,40 @@ h6{
     display: block;
     width: 100%;
 }
+
+/* sec_4 swiper end */
+
+.left_wrap,
+.right_wrap{
+    display: none;
+}
+
+@media screen and (max-width: 1650px){
+
+}
+
+@media screen and (max-width: 1450px) {
+    .wrap{
+        display: flex;
+        background-color: #1B1B1B;
+    }
+
+    .left_wrap,
+    .right_wrap{
+        display: fixed;
+    }
+
+    .wwf_wrap{
+        max-width: 402px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        /* position: relative; */
+    }
+
+    .wrap .pc_header{
+        display: none;
+    }
+
+}
+
 
