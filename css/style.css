@@ -1148,7 +1148,7 @@
 }
 @media screen and (max-width: 1450px){
     .sec_6{
-        padding: 50px 20px 20px 50px;
+        padding: 50px 20px;
     }
     
     .sec_6 .title_wrap h5{
@@ -1226,7 +1226,7 @@
     
     .sec_6 .btn h6{
         font-size: 24px;
-        margin-left: 22px;
+        margin-left: 40px;
     }
     
 }
