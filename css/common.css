@@ -11,6 +11,20 @@ section:not(.sec_1, .sec_2, .sec_6){
     padding: 200px;
 }
 
+@media screen and (max-width: 1450px){
+    section:not(.sec_1, .sec_2, .sec_6){
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    html, body {
+        background-color: #000; /* 또는 원하는 색으로 */
+        overflow-x: hidden;     /* 가로 스크롤 방지 */
+        -webkit-font-smoothing: antialiased;
+    }
+
+}
+
 
 h2{
     font-weight: 700;
@@ -125,6 +139,38 @@ h6{
     margin-bottom: 50px;
 }
 
+.line_arrow_mob{
+    display: none;
+}
+
+@media screen and (max-width: 1450px){
+    .title_wrap{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .title_wrap h5{
+        font-size: 18px;
+        margin-bottom: 0px;
+        opacity: 0.7;
+    }
+
+    .title_wrap h2{
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .line_arrow{
+        display: none;
+    }
+
+    .line_arrow_mob{
+        display: block;
+    }
+
+}
+
 /* title_wrap_style end */
 
 .swiper {
@@ -147,51 +193,6 @@ h6{
     height: 100%;
     object-fit: cover;
 }
-
-.sec_4 .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.sec_4 .swiper-slide {
-    position: relative;
-    width: 100%;
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-.bg_4{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;    
-    background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1B1B1B 100%);
-}
-
-.con_title_4{
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    text-align: start;
-}
-
-.con_title_4 h3{
-    color: #ffffff;
-}
-
-.con_title_4 h6{
-    color: #ffffff;
-    opacity: 0.7;
-}
-
-.sec_4 .swiper-slide img {
-    display: block;
-    width: 100%;
-}
-
-/* sec_4 swiper end */
 
 .left_wrap,
 .right_wrap{

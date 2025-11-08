@@ -24,5 +24,13 @@ $(document).ready(function(){
 
     });
 
+    var swiper = new Swiper(".sec_4_mob", {
+        slidesPerView: 1.5,    
+        centeredSlides: true,   
+        spaceBetween: 20,        
+        loop: true,              
+        grabCursor: true,        
+    });
+
 
 }) //end
